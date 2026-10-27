@@ -1,0 +1,17 @@
+# Secrets and local environment
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Generated outputs
+reports/*.csv
+reports/*.png
+reports/*.jpg
+!reports/.gitkeep
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
